@@ -6,6 +6,14 @@
     url("../fonts/montserrat-v18-latin-700.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Radley";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/radley-v15-latin-regular.woff2") format("woff2"),
+    url("../fonts/radley-v15-latin-regular.woff") format("woff");
+}
+
 .head-title h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -22,6 +30,7 @@
 }
 
 .links {
+  font-family: "Radley", serif;
   margin-top: 5em;
   margin-bottom: 5em;
   text-align: center;
