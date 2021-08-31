@@ -2,8 +2,8 @@
   font-family: "Montserrat";
   font-style: bold;
   font-weight: 700;
-  src: local(""), url("./fonts/montserrat-v18-latin-700.woff2") format("woff2"),
-    url("./fonts/montserrat-v18-latin-700.woff") format("woff");
+  src: local(""), url("../fonts/montserrat-v18-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-700.woff") format("woff");
 }
 
 .head-title h1 {
