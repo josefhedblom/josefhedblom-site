@@ -30,10 +30,16 @@
 }
 
 .links {
-  font-family: "Radley", serif;
   margin-top: 5em;
   margin-bottom: 5em;
   text-align: center;
+}
+
+.btn-social {
+  border: solid 1px #d5e0e7;
+  background-color: #fff;
+  padding: 1rem;
+  width: 100%;
 }
 
 a {
@@ -49,5 +55,9 @@ a:hover {
 @media screen and (max-width: 767px) {
   .head-title h1 {
     font-size: 60px;
+  }
+
+  .btn-social {
+    margin-bottom: 1rem;
   }
 }
