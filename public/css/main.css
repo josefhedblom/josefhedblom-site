@@ -14,7 +14,13 @@
     url("../fonts/radley-v15-latin-regular.woff") format("woff");
 }
 
-.head-title h1 {
+
+.hero-content, footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-title {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 80px;
@@ -23,41 +29,95 @@
   text-transform: uppercase;
 }
 
+.hero-summary {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  margin-top: 1em;
+}
+
 .divider-block {
   width: 45%;
   margin: 0 auto;
   border-bottom: #e3e3e3 solid 1px;
 }
 
-.links {
-  margin-top: 5em;
-  margin-bottom: 5em;
+.hero-links {
+  text-align: center;
+}
+
+.fa-lg {
+  margin-right: 1rem;
+  font-size: 25px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-work {
+  margin-bottom: 5rem;
+}
+.work-link {
+  border: solid 1px #d5e0e7;
+  color: #2E4453;
+}
+
+.work, .work-tags {
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.work-tags span {
+  color: #9eb1bd;
+  background-color: #ECEFF1;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+}
+.portfolio-title, .portfolio-summary {
+  text-align: center;
+  margin: 2rem;
+}
+
+.hero-links a button{
+  border: solid 1px #d5e0e7;
+  border-radius: 4px;
+  color: #2E4453;
+  padding: 12px 35px;
+  margin: 2em 0.5em;
   text-align: center;
 }
 
 .btn-social {
-  border: solid 1px #d5e0e7;
+  border: solid 1px #000;
+  border-radius: 4px;
+  font-weight: 600;
   background-color: #fff;
-  padding: 1rem;
-  width: 100%;
+  padding: 12px 35px;
+  margin: 2em 0.5em;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+footer {
+  margin-top:2rem;
+  margin-bottom:2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
-a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 @media screen and (max-width: 767px) {
-  .head-title h1 {
-    font-size: 60px;
+  .hero-title {
+    font-size: 70px;
   }
 
   .btn-social {
     margin-bottom: 1rem;
+  }
+
+  img {
+    display: none;
   }
 }
