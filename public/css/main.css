@@ -92,15 +92,6 @@ img {
   text-align: center;
 }
 
-.btn-social {
-  border: solid 1px #000;
-  border-radius: 4px;
-  font-weight: 600;
-  background-color: #fff;
-  padding: 12px 35px;
-  margin: 2em 0.5em;
-}
-
 footer {
   margin-top:2rem;
   margin-bottom:2rem;
@@ -110,11 +101,15 @@ footer {
 }
 @media screen and (max-width: 767px) {
   .hero-title {
-    font-size: 70px;
+    font-size: 60px;
   }
 
-  .btn-social {
-    margin-bottom: 1rem;
+  .hero-links a button{
+    margin-bottom: 2rem;
+  }
+  
+  .fa {
+    display: none;
   }
 
   img {
