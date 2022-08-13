@@ -1,66 +1,107 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./bootstrap-5.1.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/profile-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/profile-icon.png">
+    <meta name="theme-color" content="#ffffff">
     <title>Josef Hedblom</title>
 </head>
-<body class="container">
-    <div class="row">
-        <div class="col-12">
-            <span class="head-title">
-                <h1>josef hedblom.</h1>
-            </span>
+
+<body>
+    <header>
+        <img src="./img/bild.jpeg" alt="profil_image">
+        <h2>Josef Hedblom.</h2>
+        <span class="divider-block"></span>
+        <p>
+            Jag är en driven och engagerad frontend-utvecklare specialiserad på JavaScript som React som också
+            har erfarenhet med backend utveckling med Node.js och Express.
+        </p>
+        <div class="links">
+            <a class="link__hover" href="mailto:hedblom.josef@me.com" target="_blank"><span>email</span></a>
+            <a class="link__hover" href="https://github.com/josefhedblom" target="_blank"><span>github</span></a>
+            <a class="link__hover" href="https://www.linkedin.com/in/josefhedblom-56b3621b4/"
+                target="_blank"><span>linkedin</span> </a>
+            <!-- <a class="link__hover" href="#" target="_blank"><span>resume</span></a> -->
         </div>
+    </header>
+    <div id="site">
+        <section class="section skills">
+            <div class="section__title">Skills</div>
+            <div class="section__content">
+                <div class="skillz">
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Languages</div>
+                        <ul>
+                            <li class="skillz__category__item">JavaScript (ES6)</li>
+                            <li class="skillz__category__item">TypeScript</li>
+                            <li class="skillz__category__item">HTML</li>
+                            <li class="skillz__category__item">CSS/Sass</li>
+                            <li class="skillz__category__item">Ruby</li>
+
+                        </ul>
+                    </div>
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Frameworks</div>
+                        <ul>
+                            <li class="skillz__category__item">React.js</li>
+                            <li class="skillz__category__item">React Native</li>
+                            <li class="skillz__category__item">Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Tools</div>
+                        <ul>
+                            <li class="skillz__category__item">Git & Github</li>
+                            <li class="skillz__category__item">Bash & Zsh</li>
+                            <li class="skillz__category__item">MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section projects">
+            <div class="section__title">Projects</div>
+            <div class="section__content">
+                <div class="project">
+                    <div class="project__name"> <a
+                            href="https://designsystem.arbetsformedlingen.se/tillganglighet-och-design/tillganglighet-checklista"
+                            target="_blank" class="arrow-link link__hover">Tillgänglighetslistan</a> </div>
+                    <p>Som UX-ingenjör hos Arbetsförmedlingen byggstenen Designsystem arbetade jag för att hjälpa till
+                        att förena och förstärka designsystemets uppdrag internt och externt för att förbättra design
+                        hanteringsprocessen och säkerställa att Designsystemet svarar mot organisationens behov och mål.
+
+                        Jag arbetade också med behov analys i from av intervjuer med utvecklar, designers och
+                        produktägare för att ta fram en tillgänglighets tjänst för att skapa tillgänglighetsredogörelse
+                        för att säkerställa att organisationens behov och mål för tillgänglighet uppfylldes.</p>
+                    <div class="project__used">
+                        <span class="project__used__item">JavaScript</span>
+                        <span class="project__used__item">Stencil.js</span>
+                        <span class="project__used__item">Webbkomponenter</span>
+                        <span class="project__used__item">Node.js</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a href="https://setlist-to-playlist.josefhedblom.se" target="_blank"
+                            class="arrow-link link__hover">Setlist to Playlist (Beta)</a> </div>
+                    <p>
+                        Med Setlist to Playlist kan du söka efter artisters konserter och skapa Spotify-spellistor från
+                        deras setlist!
+                    </p>
+                    <div class="project__used">
+                        <span class="project__used__item">Node.js</span>
+                        <span class="project__used__item">TypeScript</span>
+                        <span class="project__used__item">React.js</span>
+                        <span class="project__used__item">Spotify API</span>
+                        <span class="project__used__item">Setlist.fm API</span>
+                    </div>
+                </div>
+        </section>
     </div>
-    <div class="divider-block"></div>
-    <div class="links container">
-        <div class="row">
-            <div class="col-md-3">
-                <span>
-                    <a href="https://github.com/josefhedblom">
-                        <button class="btn-social btn btn-light btn-lg">
-                            <i class="fa fa-github fa-lg"></i>
-                            Github
-                        </button>
-                    </a>
-                </span>
-            </div>
-            <div class="col-md-3">
-                <span>
-                    <a href="https://twitter.com/JosefHedblom">
-                        <button class="btn-social btn btn-light btn-lg">
-                            <i class="fa fa-twitter fa-lg"></i>
-                            Twitter
-                        </button>
-                    </a>
-                </span>
-            </div>
-            <div class="col-md-3">
-                <span>
-                    <a href="https://www.instagram.com/josefhedblom/">
-                        <button class="btn-social btn btn-light btn-lg">
-                            <i class="fa fa-instagram fa-lg"></i>
-                            Instagram
-                        </button>
-                    </a>
-                </span>
-            </div>
-            <div class="col-md-3">
-                <span>
-                    <a href="https://www.linkedin.com/in/josef-h-56b3621b4/">
-                        <button class="btn-social btn btn-light btn-lg">
-                            <i class="fa fa-linkedin-square fa-lg"></i>
-                            Linkedin
-                        </button>
-                    </a>
-                </span>
-            </div>
-        </div>
-    <script src="./bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
