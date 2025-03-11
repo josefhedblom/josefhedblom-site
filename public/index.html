@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/profile-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/profile-icon.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#f5f5f5">
+    <meta name="description" content="My portfolio page where I show case my work as a front-end developer.">
     <title>Josef Hedblom</title>
 </head>
 
@@ -17,17 +18,17 @@
         <img src="./img/bild.jpeg" alt="profil_image">
         <h2>Josef Hedblom.</h2>
         <span class="divider-block"></span>
+<!--
         <p>
-            Jag är en driven och engagerad frontend-utvecklare specialiserad på JavaScript och ramverk som React.js och som också
-            har erfarenhet med backend-utveckling med Node.js och Express.js
+		I'm a dedicated frontend developer with a passion for employing cutting-edge technologies like React, React Native, Node, and Express to craft exceptional web applications. Whether collaborating with a team or working independently, my focus remains on delivering solutions that surpass expectations and contribute to business growth.
         </p>
+<-->
         <div class="links">
-            <a class="link__hover" href="mailto:hedblom.josef@me.com" target="_blank"><span>email</span></a>
+            <a class="link__hover" href="mailto:josef@josefhedblom.se" target="_blank"><span>email</span></a>
             <a class="link__hover" href="https://github.com/josefhedblom" target="_blank"><span>github</span></a>
-            <a class="link__hover" href="https://www.linkedin.com/in/josefhedblom-56b3621b4/"
+            <a class="link__hover" href="https://www.linkedin.com/in/josefhedblom/"
                 target="_blank"><span>linkedin</span> </a>
-            <a class="link__hover" href="./resume/Josef Hedblom Resume.pdf" download
-                target="_blank"><span>resume</span></a>
+	    <a class="link__hover" target="_blank" href="https://blogg.josefhedblom.se">blog</a>
         </div>
     </header>
     <div id="site">
@@ -40,18 +41,18 @@
                         <ul>
                             <li class="skillz__category__item">JavaScript (ES6)</li>
                             <li class="skillz__category__item">TypeScript</li>
-                            <li class="skillz__category__item">HTML</li>
-                            <li class="skillz__category__item">CSS/Sass</li>
-                            <li class="skillz__category__item">Ruby</li>
+                            <li class="skillz__category__item">Java</li>
+			    <li class="skillz__category__item">Python</>
 
                         </ul>
                     </div>
                     <div class="skillz__category">
                         <div class="skillz__category__label">Frameworks</div>
                         <ul>
-                            <li class="skillz__category__item">React.js</li>
+                            <li class="skillz__category__item">React</li>
                             <li class="skillz__category__item">React Native</li>
-                            <li class="skillz__category__item">Node.js</li>
+                            <li class="skillz__category__item">Node</li>
+			    <li class="skillz__category__item">Express</li>
                         </ul>
                     </div>
                     <div class="skillz__category">
@@ -72,17 +73,19 @@
                     <div class="project__name"> <a
                             href="https://designsystem.arbetsformedlingen.se/tillganglighet-och-design/tillganglighet-checklista"
                             target="_blank" class="arrow-link link__hover">Tillgänglighetslistan</a> </div>
-                    <p>Som UX-ingenjör hos Arbetsförmedlingen byggstenen Designsystem arbetade jag för att hjälpa till
-                        att förena och förstärka designsystemets uppdrag internt och externt för att förbättra design
-                        hanteringsprocessen och säkerställa att Designsystemet svarar mot organisationens behov och mål.
-
-                        Jag arbetade också med behovanalys i from av intervjuer med utvecklare, designers och
-                        produktägare för att ta fram en tillgänglighetstjänst för att skapa tillgänglighetsredogörelse
-                        för att säkerställa att organisationens behov och mål för tillgänglighet uppfylldes.</p>
+                    <p>
+			As a UX engineer at Swedish Public Employment Service Byggstenen Designsystem, 
+			I worked to help unify and strengthen the design system's mission internally and 
+			externally to improve the design management process and ensure that the Designsystem responds 
+			to the organization's needs and goals. 
+			I also worked with developers, designers and product owners to develop an 
+			accessibility service to create accessibility reporting to ensure the 
+			organization's accessibility needs and goals were met.
+		    </p>
                     <div class="project__used">
                         <span class="project__used__item">JavaScript</span>
                         <span class="project__used__item">Stencil.js</span>
-                        <span class="project__used__item">Webbkomponenter</span>
+                        <span class="project__used__item">Web Components</span>
                         <span class="project__used__item">Node.js</span>
                     </div>
                 </div>
@@ -90,8 +93,7 @@
                     <div class="project__name"> <a href="https://setlist-to-playlist.josefhedblom.se" target="_blank"
                             class="arrow-link link__hover">Setlist to Playlist (Beta)</a> </div>
                     <p>
-                        Med Setlist to Playlist kan du söka efter artisters konserter och skapa Spotify-spellistor från
-                        deras setlist!
+                        Setlist to Playlist converts a setlist from a live music performance into a playlist on the streaming music platform Spotify. The service uses the setlist.fm API to retrieve the setlist and the Spotify Web API to create a playlist and add the songs to it.
                     </p>
                     <div class="project__used">
                         <span class="project__used__item">Node.js</span>
@@ -99,6 +101,19 @@
                         <span class="project__used__item">React.js</span>
                         <span class="project__used__item">Spotify API</span>
                         <span class="project__used__item">Setlist.fm API</span>
+                    </div>
+                </div>
+ 		<div class="project">
+                    <div class="project__name"> <a href="https://www.npmjs.com/package/@jhedblom/javascript-utilities" target="_blank"
+                            class="arrow-link link__hover">javascript-utilities - npm pakage</a> </div>
+                    <p>
+                      Javascript Utilities is a collection of utility class methods written in JavaScript. The class methods cover a range of use cases, such as formatting strings, working with arrays, manipulating objects, and more. The code is well-documented and follows best practices, making it easy to understand and use. The project is open source and contributions are welcome from the community.
+                    </p>
+                    <div class="project__used">
+                        <span class="project__used__item">Node.js</span>
+                        <span class="project__used__item">JavaScript</span>
+                        <span class="project__used__item">Vitest</span>
+			<span class="project__used__item">NPM</span>
                     </div>
                 </div>
         </section>

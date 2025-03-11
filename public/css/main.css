@@ -4,6 +4,7 @@
   font-weight: 700;
   src: local(""), url("../fonts/montserrat-v18-latin-700.woff2") format("woff2"),
     url("../fonts/montserrat-v18-latin-700.woff") format("woff");
+  font-display: swap;
 }
 
 html {
@@ -185,6 +186,7 @@ header p {
   font-weight: 300;
   max-width: 700px;
   color: #000;
+text-align:center;
 }
 
 header img {
@@ -211,6 +213,9 @@ header img {
 }
 
 @media screen and (max-width:480px) {
+  .links a {
+    margin: auto 5px
+  }
   .section {
     padding: 50px 35px
   }
