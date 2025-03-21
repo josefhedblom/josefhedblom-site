@@ -214,14 +214,8 @@ header img {
 
 @media screen and (max-width:480px) {
   .links a {
-<<<<<<< HEAD
-    margin: auto 5px
-  }
-=======
     margin: auto 5px;
   }
-
->>>>>>> 21125272b90e55252fd5a3c1884ef7f2cf09046f
   .section {
     padding: 50px 35px
   }
