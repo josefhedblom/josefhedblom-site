@@ -5,31 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Josef Hedblom - Front-end Developer</title>
-
-    <!-- Stylesheets -->
     <link rel="preload" href="./css/main.css" as="style">
     <link rel="stylesheet" href="./css/main.css">
-
-    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./img/profile-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/profile-icon.png">
-
-    <!-- SEO Meta Tags -->
     <meta name="theme-color" content="#f5f5f5">
     <meta name="author" content="Josef Hedblom">
     <meta name="description"
         content="Explore my portfolio as a front-end developer, showcasing projects, skills, and experience.">
     <meta name="keywords" content="HTML, CSS, JavaScript, React, Front-end Development, Web Development">
-
-    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Josef Hedblom - Front-end Developer">
     <meta property="og:description"
         content="Explore my portfolio showcasing my work, skills, and projects in front-end development.">
     <meta property="og:image" content="./img/bild.jpeg">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:url" content="https://josefhedblom.se">
 </head>
 
 <body>
@@ -42,7 +33,6 @@
             <a class="link__hover" href="https://github.com/josefhedblom" target="_blank"><span>github</span></a>
             <a class="link__hover" href="https://www.linkedin.com/in/josefhedblom/"
                 target="_blank"><span>linkedin</span> </a>
-            <!-- <a class="link__hover" target="_blank" href="https://blogg.josefhedblom.se">blog</a> -->
         </div>
     </header>
     <div id="site">
@@ -53,10 +43,9 @@
                     <div class="skillz__category">
                         <div class="skillz__category__label">Languages</div>
                         <ul>
-                            <li class="skillz__category__item">JavaScript (ES6)</li>
+                            <li class="skillz__category__item">JavaScript</li>
                             <li class="skillz__category__item">TypeScript</li>
                             <li class="skillz__category__item">Java</li>
-                            <li class="skillz__category__item">Python</li>
 
                         </ul>
                     </div>
@@ -64,9 +53,8 @@
                         <div class="skillz__category__label">Frameworks</div>
                         <ul>
                             <li class="skillz__category__item">React</li>
-                            <li class="skillz__category__item">React Native</li>
                             <li class="skillz__category__item">Node</li>
-                            <li class="skillz__category__item">Express</li>
+                            <li class="skillz__category__item">Spring Boot</li>
                         </ul>
                     </div>
                     <div class="skillz__category">
@@ -86,15 +74,15 @@
                 <div class="project">
                     <div class="project__name"> <a
                             href="https://designsystem.arbetsformedlingen.se/tillganglighet-och-design/tillganglighet-checklista"
-                            target="_blank" class="arrow-link link__hover">Tillgänglighetslistan</a> </div>
+                            target="_blank" class="arrow-link link__hover">Tillgänglighetslistan - Praktik</a> </div>
                     <p>
-                        As a UX Engineer at Arbetsförmedlingen’s Design System, I worked to strengthen and unify the
-                        design system’s mission both internally and externally. My focus was on improving the design
-                        process and ensuring that the system met the organization’s needs and goals.
+                        Som UX-ingenjör på Arbetsförmedlingens Designsystem arbetade jag för att stärka och enhetliggöra
+                        designsystemets uppdrag både internt och externt. Mitt fokus var att förbättra designprocessen
+                        och säkerställa att systemet mötte organisationens behov och mål.
 
-                        I also collaborated with developers, designers, and product owners to develop an accessibility
-                        service with accessibility reporting, ensuring that the organization’s accessibility
-                        requirements were met.
+                        Jag samarbetade även med utvecklare, designers och produktägare för att utveckla en
+                        tillgänglighetstjänst med tillgänglighetsrapportering, vilket säkerställde att organisationens
+                        tillgänglighetskrav uppfylldes.
                     </p>
                     <div class="project__used">
                         <span class="project__used__item">JavaScript</span>
@@ -105,49 +93,66 @@
                 </div>
                 <div class="project">
                     <div class="project__name"> <a href="https://setlist-to-playlist.josefhedblom.se" target="_blank"
-                            class="arrow-link link__hover">Setlist to Playlist (Beta)</a> </div>
+                            class="arrow-link link__hover">Setlist to Playlist</a> </div>
                     <p>
-                        Setlist to Playlist converts a setlist from a live music performance into a playlist on the
-                        streaming music platform Spotify. The service uses the setlist.fm API to retrieve the setlist
-                        and the Spotify Web API to create a playlist and add the songs to it.
+                        Setlist to Playlist är en minimalistisk webapp som gör det snabbt och enkelt att hitta setlists
+                        från konserter med dina favoritartister. Appen låter dig söka efter artister, visa konserter och
+                        se setlists utan att behöva klicka runt på olika sidor. Den är byggd med Spring Boot för backend
+                        och React för frontend, och har en fokus på snabb och tydlig användarupplevelse. Framtida
+                        funktioner inkluderar möjligheten att spela upp låtar direkt i Spotify eller Apple Music och
+                        skapa spellistor från konserter.
                     </p>
                     <div class="project__used">
-                        <span class="project__used__item">Node.js</span>
-                        <span class="project__used__item">TypeScript</span>
+                        <span class="project__used__item">Java</span>
+                        <span class="project__used__item">Spring Boot</span>
                         <span class="project__used__item">React.js</span>
-                        <span class="project__used__item">Spotify API</span>
                         <span class="project__used__item">Setlist.fm API</span>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project__name"> <a href="https://faker.jvmdev.se/api/people" target="_blank"
+                            class="arrow-link link__hover">FakerAPI</a> </div>
+                    <p>
+                        Ett enkelt REST API i Spring Boot som genererar slumpmässig fake data
+                        (namn och e-post) genom att använda biblioteket FakerData. API:t är utvecklat för att låta nya
+                        utvecklare kunna öva på API-anrop med realistisk men slumpmässig data utan att behöva
+                        skapa en egen databas eller använda externa tjänster med komplicerad dokumentation.
+                    </p>
+                    <div class="project__used">
+                        <span class="project__used__item">Java</span>
+                        <span class="project__used__item">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a href="https://scriptmatic.jvmdev.se" target="_blank"
+                            class="arrow-link link__hover">Scriptmatic – manusformaterare</a> </div>
+                    <p>
+                        Scriptmatic är ett verktyg för att snabbt och enkelt formaterar text till
+                        manusformat med hjälp av Fountain-syntax. Verktyget består av en backend byggd i Spring Boot som
+                        hanterar manusformatering och en frontend i React för att skriva,
+                        ladda upp och exportera manus.
+                    </p>
+                    <div class="project__used">
+                        <span class="project__used__item">Java</span>
+                        <span class="project__used__item">Spring Boot</span>
+                        <span class="project__used__item">React.js</span>
                     </div>
                 </div>
                 <div class="project">
                     <div class="project__name"> <a href="https://www.npmjs.com/package/@jhedblom/javascript-utilities"
                             target="_blank" class="arrow-link link__hover">javascript-utilities - npm pakage</a> </div>
                     <p>
-                        Javascript Utilities is a collection of utility class methods written in JavaScript. The class
-                        methods
-                        cover a range of use cases, such as formatting strings, working with arrays, manipulating
-                        objects, and
-                        more. The code is well-documented and follows best practices, making it easy to understand and
-                        use. The
-                        project is open source and contributions are welcome from the community.
+                        JavaScript Utilities är en samling av klassmetoder som
+                        täcker en rad olika användningsområden, såsom att formatera strängar, arbeta med arrayer,
+                        manipulera objekt. Detta var ett mindre projket för att prova på att skapa ett eget npm paket
+                        och bygga klassmetoder jag saknade från andra språk som Ruby och Python.
                     </p>
                     <div class="project__used">
                         <span class="project__used__item">Node.js</span>
                         <span class="project__used__item">JavaScript</span>
                         <span class="project__used__item">Vitest</span>
                         <span class="project__used__item">NPM</span>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project__name"> <a href="/shortcuts.html" class="arrow-link link__hover">Siri
-                            Shortcuts</a> </div>
-                    <p>
-                        My collection of Siri Shortcuts I have creatde and want to share.
-                    </p>
-                    <div class="project__used">
-                        <span class="project__used__item">Shortcuts</span>
-                        <span class="project__used__item">iOS</span>
-                        <span class="project__used__item">MacOS</span>
                     </div>
                 </div>
             </div>
